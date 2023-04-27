@@ -10,7 +10,19 @@
 <body>
     <h1>Calorie Tracker</h1>
 
-    
+    <form>
+        <label for="foodNameInput">Food name:</label>
+        <input type="text" class="inputField" id="foodNameInput" placeholder="Enter a food to track">
+        <br>
+        <label for="calorieCountInput">Number of calories:</label>
+        <input type="number" class="inputField" id="calorieCountInput" placeholder="Enter number of calories in the food">
+        <br>
+        <input type="submit" value="Submit" id="submitBtn">
+    </form>
+
+    <br>
+    <label for="totalCalorieDisplay">Total calories:</label>
+    <input disabled="true" id="totalCalorieDisplay" value="0">
 
     <script type="text/javascript" src="script.js"></script>
 </body>
